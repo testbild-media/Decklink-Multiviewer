@@ -65,12 +65,9 @@ Place screenshots in the `/docs` folder.
 
 ## DeckLink SDK Setup
 
-The DeckLink SDK sources must be available at:
-`/Library/DeckLinkSDK`
-Copy the contents of:
-`Blackmagic DeckLink SDK 14.3\Mac\include`
-into:
-`/Library/DeckLinkSDK`
+The DeckLink SDK sources must be available at: `/Library/DeckLinkSDK`
+
+Copy the contents of: `Blackmagic DeckLink SDK 14.3\Mac\include` into `/Library/DeckLinkSDK`
 
 ---
 
