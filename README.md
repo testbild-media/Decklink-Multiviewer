@@ -1,3 +1,5 @@
+![icon](https://github.com/testbild-media/Decklink-Multiviewer/blob/main/docs/icon_128.png)
+
 # DecklinkMultiviewer
 
 macOS 2x2 multiviewer application for Blackmagic DeckLink cards with integrated tally support via TSL 5.0, REST and WebSocket.
