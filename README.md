@@ -1,12 +1,12 @@
 # DecklinkMultiviewer
 
-macOS multiviewer application for Blackmagic DeckLink cards with integrated tally support via TSL 5.0, REST and WebSocket.
+macOS 2x2 multiviewer application for Blackmagic DeckLink cards with integrated tally support via TSL 5.0, REST and WebSocket.
 
 ---
 
 ## Features
 
-- Multi-input monitoring via DeckLink hardware  
+- 2x2 monitoring via DeckLink hardware  
 - TSL 5.0 support (UDP & TCP)  
 - UMD / IMD label display  
 - Full tally support:
