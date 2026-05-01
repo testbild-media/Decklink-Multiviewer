@@ -6,9 +6,10 @@ macOS 2x2 multiviewer application for Blackmagic DeckLink cards with integrated 
 
 ## Features
 
-- 2x2 monitoring via DeckLink hardware  
-- TSL 5.0 support (UDP & TCP)  
-- UMD / IMD label display  
+- 2x2 monitoring via DeckLink hardware
+- OSC remote control support (window 1-4 + multiview + hide window) for e.g. Bitfocus Companion
+- TSL 5.0 support (UDP & TCP)
+- UMD / IMD label display
 - Full tally support:
   - Program (Red)
   - Preview (Green)
