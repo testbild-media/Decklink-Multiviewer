@@ -29,9 +29,7 @@ Fully implemented and tested.
 - Any RED state triggers Program tally  
 - Supports RED, GREEN and AMBER states  
 
-### REST API (Placeholder)
-
-### WebSocket (Placeholder)
+### REST API & WebSocket (Placeholder)
 
 REST and WebSocket use the same JSON structure:
 {
