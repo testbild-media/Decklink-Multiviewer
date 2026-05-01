@@ -92,6 +92,12 @@ Create a standalone app:
 
 ---
 
+## ToDo's
+- testing on Macbook M1 2020
+- long term tests on production
+
+---
+
 ## License
 
 This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
