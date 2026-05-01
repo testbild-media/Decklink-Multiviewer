@@ -60,7 +60,7 @@ Amber is created when the same input is present in both arrays:
 
 ## Requirements
 
-- macOS  
+- macOS Sequoia 15.7.5+ (only tested on Intel)
 - Blackmagic Desktop Video 14.3+ installed 
 - Blackmagic DeckLink SDK 14.3
 - DeckLink compatible hardware  
