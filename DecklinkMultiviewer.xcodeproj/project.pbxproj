@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A001 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F001 /* main.swift */; };
+		A002 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F002 /* AppDelegate.swift */; };
+		A003 /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F003 /* MainWindowController.swift */; };
+		A004 /* CaptureEngine.mm in Sources */ = {isa = PBXBuildFile; fileRef = F004 /* CaptureEngine.mm */; settings = {COMPILER_FLAGS = "-std=c++17"; }; };
+		A005 /* MetalRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F005 /* MetalRenderer.swift */; };
+		A006 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = F006 /* Shaders.metal */; };
+		A007 /* TallyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F007 /* TallyManager.swift */; };
+		A008 /* ControlPlane.swift in Sources */ = {isa = PBXBuildFile; fileRef = F008 /* ControlPlane.swift */; };
+		A009 /* SettingsWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F009 /* SettingsWindowController.swift */; };
+		A010 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F010 /* AppSettings.swift */; };
+		A011 /* LUTLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F011 /* LUTLoader.swift */; };
+		A012 /* FrameTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F012 /* FrameTypes.swift */; };
+		A013 /* DeckLinkBridge.mm in Sources */ = {isa = PBXBuildFile; fileRef = F013 /* DeckLinkBridge.mm */; settings = {COMPILER_FLAGS = "-std=c++17"; }; };
+		A014 /* MultiviewLayoutEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F014 /* MultiviewLayoutEngine.swift */; };
+		A015 /* OverlayRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F015 /* OverlayRenderer.swift */; };
+		A016 /* WebSocketTallySource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F016 /* WebSocketTallySource.swift */; };
+		A017 /* RESTTallySource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F017 /* RESTTallySource.swift */; };
+		A018 /* InputAssignmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F018 /* InputAssignmentView.swift */; };
+		A019 /* StatusBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F019 /* StatusBarController.swift */; };
+		A020 /* Float16Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F020 /* Float16Helpers.swift */; };
+		A021 /* DeckLinkAPIDispatch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F021 /* DeckLinkAPIDispatch.cpp */; settings = {COMPILER_FLAGS = "-std=c++17"; }; };
+		A030 /* AspectRatioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F030 /* AspectRatioView.swift */; };
+		A031 /* TSLTallySource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F031 /* TSLTallySource.swift */; };
+		A032 /* ClickableMTKView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F032 /* ClickableMTKView.swift */; };
+		R001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = RF001 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		075149B82FA47231003A72C3 /* DeckLinkAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DeckLinkAPI.framework; path = ../../../../Library/Frameworks/DeckLinkAPI.framework; sourceTree = "<group>"; };
+		F001 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		F002 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F003 /* MainWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
+		F004 /* CaptureEngine.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CaptureEngine.mm; sourceTree = "<group>"; };
+		F005 /* MetalRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalRenderer.swift; sourceTree = "<group>"; };
+		F006 /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
+		F007 /* TallyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TallyManager.swift; sourceTree = "<group>"; };
+		F008 /* ControlPlane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlPlane.swift; sourceTree = "<group>"; };
+		F009 /* SettingsWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsWindowController.swift; sourceTree = "<group>"; };
+		F010 /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		F011 /* LUTLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LUTLoader.swift; sourceTree = "<group>"; };
+		F012 /* FrameTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameTypes.swift; sourceTree = "<group>"; };
+		F013 /* DeckLinkBridge.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = DeckLinkBridge.mm; sourceTree = "<group>"; };
+		F014 /* MultiviewLayoutEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiviewLayoutEngine.swift; sourceTree = "<group>"; };
+		F015 /* OverlayRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayRenderer.swift; sourceTree = "<group>"; };
+		F016 /* WebSocketTallySource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSocketTallySource.swift; sourceTree = "<group>"; };
+		F017 /* RESTTallySource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RESTTallySource.swift; sourceTree = "<group>"; };
+		F018 /* InputAssignmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputAssignmentView.swift; sourceTree = "<group>"; };
+		F019 /* StatusBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarController.swift; sourceTree = "<group>"; };
+		F020 /* Float16Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Float16Helpers.swift; sourceTree = "<group>"; };
+		F021 /* DeckLinkAPIDispatch.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DeckLinkAPIDispatch.cpp; sourceTree = "<group>"; };
+		F030 /* AspectRatioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AspectRatioView.swift; sourceTree = "<group>"; };
+		F031 /* TSLTallySource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSLTallySource.swift; sourceTree = "<group>"; };
+		F032 /* ClickableMTKView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickableMTKView.swift; sourceTree = "<group>"; };
+		FH001 /* CaptureEngine.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CaptureEngine.hpp; sourceTree = "<group>"; };
+		FH002 /* DeckLinkBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeckLinkBridge.h; sourceTree = "<group>"; };
+		FH003 /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
+		PROD /* DecklinkMultiviewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DecklinkMultiviewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		RF001 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		RF002 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BP_FRM /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		075149B72FA47230003A72C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				075149B82FA47231003A72C3 /* DeckLinkAPI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		GRP_APP /* DecklinkMultiviewer */ = {
+			isa = PBXGroup;
+			children = (
+				GRP_SRC_APP /* App */,
+				GRP_SRC_CAP /* Capture */,
+				GRP_SRC_REN /* Renderer */,
+				GRP_SRC_TAL /* Tally */,
+				GRP_SRC_CTL /* Control */,
+				GRP_SRC_SET /* Settings */,
+				GRP_SRC_UTL /* Utilities */,
+				GRP_SHD /* Shaders */,
+				GRP_RES /* Resources */,
+				FH003 /* BridgingHeader.h */,
+			);
+			path = DecklinkMultiviewer;
+			sourceTree = "<group>";
+		};
+		GRP_PROD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				PROD /* DecklinkMultiviewer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		GRP_RES /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				RF001 /* Assets.xcassets */,
+				RF002 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		GRP_SHD /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				F006 /* Shaders.metal */,
+			);
+			path = Shaders;
+			sourceTree = "<group>";
+		};
+		GRP_SRC_APP /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F001 /* main.swift */,
+				F002 /* AppDelegate.swift */,
+				F003 /* MainWindowController.swift */,
+				F018 /* InputAssignmentView.swift */,
+				F019 /* StatusBarController.swift */,
+				F030 /* AspectRatioView.swift */,
+				F032 /* ClickableMTKView.swift */,
+			);
+			name = App;
+			path = Sources/App;
+			sourceTree = "<group>";
+		};
+		GRP_SRC_CAP /* Capture */ = {
+			isa = PBXGroup;
+			children = (
+				FH001 /* CaptureEngine.hpp */,
+				F004 /* CaptureEngine.mm */,
+				FH002 /* DeckLinkBridge.h */,
+				F013 /* DeckLinkBridge.mm */,
+				F021 /* DeckLinkAPIDispatch.cpp */,
+				F012 /* FrameTypes.swift */,
+			);
+			name = Capture;
+			path = Sources/Capture;
+			sourceTree = "<group>";
+		};
+		GRP_SRC_CTL /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				F008 /* ControlPlane.swift */,
+			);
+			name = Control;
+			path = Sources/Control;
+			sourceTree = "<group>";
+		};
+		GRP_SRC_REN /* Renderer */ = {
+			isa = PBXGroup;
+			children = (
+				F005 /* MetalRenderer.swift */,
+				F014 /* MultiviewLayoutEngine.swift */,
+				F015 /* OverlayRenderer.swift */,
+			);
+			name = Renderer;
+			path = Sources/Renderer;
+			sourceTree = "<group>";
+		};
+		GRP_SRC_SET /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				F009 /* SettingsWindowController.swift */,
+				F010 /* AppSettings.swift */,
+			);
+			name = Settings;
+			path = Sources/Settings;
+			sourceTree = "<group>";
+		};
+		GRP_SRC_TAL /* Tally */ = {
+			isa = PBXGroup;
+			children = (
+				F007 /* TallyManager.swift */,
+				F016 /* WebSocketTallySource.swift */,
+				F017 /* RESTTallySource.swift */,
+				F031 /* TSLTallySource.swift */,
+			);
+			name = Tally;
+			path = Sources/Tally;
+			sourceTree = "<group>";
+		};
+		GRP_SRC_UTL /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				F011 /* LUTLoader.swift */,
+				F020 /* Float16Helpers.swift */,
+			);
+			name = Utilities;
+			path = Sources/Utilities;
+			sourceTree = "<group>";
+		};
+		ROOT = {
+			isa = PBXGroup;
+			children = (
+				GRP_APP /* DecklinkMultiviewer */,
+				075149B72FA47230003A72C3 /* Frameworks */,
+				GRP_PROD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		TARGET /* DecklinkMultiviewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BLDCFG_LIST /* Build configuration list for PBXNativeTarget "DecklinkMultiviewer" */;
+			buildPhases = (
+				BP_SRC /* Sources */,
+				BP_RES /* Resources */,
+				BP_FRM /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DecklinkMultiviewer;
+			productName = DecklinkMultiviewer;
+			productReference = PROD /* DecklinkMultiviewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		PROJECT /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 2630;
+				TargetAttributes = {
+					TARGET = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = PROJ_BLDCFG_LIST /* Build configuration list for PBXProject "DecklinkMultiviewer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ROOT;
+			productRefGroup = GRP_PROD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				TARGET /* DecklinkMultiviewer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BP_RES /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				R001 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BP_SRC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A001 /* main.swift in Sources */,
+				A002 /* AppDelegate.swift in Sources */,
+				A003 /* MainWindowController.swift in Sources */,
+				A004 /* CaptureEngine.mm in Sources */,
+				A005 /* MetalRenderer.swift in Sources */,
+				A006 /* Shaders.metal in Sources */,
+				A007 /* TallyManager.swift in Sources */,
+				A008 /* ControlPlane.swift in Sources */,
+				A009 /* SettingsWindowController.swift in Sources */,
+				A010 /* AppSettings.swift in Sources */,
+				A011 /* LUTLoader.swift in Sources */,
+				A012 /* FrameTypes.swift in Sources */,
+				A013 /* DeckLinkBridge.mm in Sources */,
+				A014 /* MultiviewLayoutEngine.swift in Sources */,
+				A015 /* OverlayRenderer.swift in Sources */,
+				A016 /* WebSocketTallySource.swift in Sources */,
+				A017 /* RESTTallySource.swift in Sources */,
+				A018 /* InputAssignmentView.swift in Sources */,
+				A019 /* StatusBarController.swift in Sources */,
+				A020 /* Float16Helpers.swift in Sources */,
+				A021 /* DeckLinkAPIDispatch.cpp in Sources */,
+				A030 /* AspectRatioView.swift in Sources */,
+				A031 /* TSLTallySource.swift in Sources */,
+				A032 /* ClickableMTKView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BC_DEBUG /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				AUTOMATION_APPLE_EVENTS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 49VABPU83N;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PHOTO_LIBRARY = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks,
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GENERATE_INFOPLIST_FILE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/DecklinkMultiviewer/Sources/Capture",
+					/Library/DeckLinkSDK,
+				);
+				INFOPLIST_FILE = DecklinkMultiviewer/Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Decklink Multiviewer";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.video";
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Metal,
+					"-framework",
+					MetalKit,
+					"-framework",
+					AppKit,
+					"-framework",
+					CoreFoundation,
+					"-framework",
+					IOKit,
+					"-framework",
+					SwiftUI,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = media.testbild.DecklinkMultiviewer;
+				PRODUCT_NAME = DecklinkMultiviewer;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				RUNTIME_EXCEPTION_ALLOW_DYLD_ENVIRONMENT_VARIABLES = NO;
+				RUNTIME_EXCEPTION_ALLOW_JIT = NO;
+				RUNTIME_EXCEPTION_ALLOW_UNSIGNED_EXECUTABLE_MEMORY = NO;
+				RUNTIME_EXCEPTION_DEBUGGING_TOOL = NO;
+				RUNTIME_EXCEPTION_DISABLE_EXECUTABLE_PAGE_PROTECTION = NO;
+				RUNTIME_EXCEPTION_DISABLE_LIBRARY_VALIDATION = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = DecklinkMultiviewer/BridgingHeader.h;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+				USER_HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/DecklinkMultiviewer/Sources/Capture",
+					/Library/DeckLinkSDK,
+				);
+			};
+			name = Debug;
+		};
+		BC_PROJ_DEBUG /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+			};
+			name = Debug;
+		};
+		BC_PROJ_RELEASE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+			};
+			name = Release;
+		};
+		BC_RELEASE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				AUTOMATION_APPLE_EVENTS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 49VABPU83N;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PHOTO_LIBRARY = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks,
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+				GENERATE_INFOPLIST_FILE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/DecklinkMultiviewer/Sources/Capture",
+					/Library/DeckLinkSDK,
+				);
+				INFOPLIST_FILE = DecklinkMultiviewer/Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Decklink Multiviewer";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.video";
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Metal,
+					"-framework",
+					MetalKit,
+					"-framework",
+					AppKit,
+					"-framework",
+					CoreFoundation,
+					"-framework",
+					IOKit,
+					"-framework",
+					SwiftUI,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = media.testbild.DecklinkMultiviewer;
+				PRODUCT_NAME = DecklinkMultiviewer;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				RUNTIME_EXCEPTION_ALLOW_DYLD_ENVIRONMENT_VARIABLES = NO;
+				RUNTIME_EXCEPTION_ALLOW_JIT = NO;
+				RUNTIME_EXCEPTION_ALLOW_UNSIGNED_EXECUTABLE_MEMORY = NO;
+				RUNTIME_EXCEPTION_DEBUGGING_TOOL = NO;
+				RUNTIME_EXCEPTION_DISABLE_EXECUTABLE_PAGE_PROTECTION = NO;
+				RUNTIME_EXCEPTION_DISABLE_LIBRARY_VALIDATION = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_BRIDGING_HEADER = DecklinkMultiviewer/BridgingHeader.h;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+				USER_HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/DecklinkMultiviewer/Sources/Capture",
+					/Library/DeckLinkSDK,
+				);
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BLDCFG_LIST /* Build configuration list for PBXNativeTarget "DecklinkMultiviewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC_DEBUG /* Debug */,
+				BC_RELEASE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		PROJ_BLDCFG_LIST /* Build configuration list for PBXProject "DecklinkMultiviewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC_PROJ_DEBUG /* Debug */,
+				BC_PROJ_RELEASE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = PROJECT /* Project object */;
+}
