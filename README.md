@@ -47,9 +47,13 @@ Amber is created when the same input is present in both arrays:
 
 ## Screenshots
 
-[Multiviewer](https://github.com/testbild-media/Decklink-Multiviewer/blob/main/docs/app-multiviewer.jpg)
-[Single Input](https://github.com/testbild-media/Decklink-Multiviewer/blob/main/docs/app-singleinput.jpg)
-[Settings](https://github.com/testbild-media/Decklink-Multiviewer/blob/main/docs/settings.jpg)
+| Multiviewer | Single View |
+|-------------|---------------|
+| ![Multiviewer](https://github.com/testbild-media/Decklink-Multiviewer/blob/main/docs/app-multiviewer.jpg) | ![Single Input](https://github.com/testbild-media/Decklink-Multiviewer/blob/main/docs/app-singleinput.jpg) |
+
+| Settings |
+|-------------|
+| ![Settings](https://github.com/testbild-media/Decklink-Multiviewer/blob/main/docs/settings.jpg) |
 
 ---
 
