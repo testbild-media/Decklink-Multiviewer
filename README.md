@@ -47,10 +47,9 @@ Amber is created when the same input is present in both arrays:
 
 ## Screenshots
 
-Place screenshots in the `/docs` folder.
-
-![Multiview](docs/screenshot1.png)  
-![Settings](docs/screenshot2.png)
+[Multiviewer](https://github.com/testbild-media/Decklink-Multiviewer/blob/main/docs/app-multiviewer.jpg)
+[Single Input](https://github.com/testbild-media/Decklink-Multiviewer/blob/main/docs/app-singleinput.jpg)
+[Settings](https://github.com/testbild-media/Decklink-Multiviewer/blob/main/docs/settings.jpg)
 
 ---
 
